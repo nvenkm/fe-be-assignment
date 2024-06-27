@@ -27,3 +27,22 @@
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 876px) {
+  .contact-section {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .left-text {
+    font-size: 1rem;
+  }
+
+  .contact-left {
+    width: 100%;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+}

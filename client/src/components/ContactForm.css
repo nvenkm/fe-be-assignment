@@ -55,3 +55,9 @@
   color: green;
   background-color: lightgreen;
 }
+
+@media (max-width: 876px) {
+  .contact-form {
+    width: 100%;
+  }
+}
